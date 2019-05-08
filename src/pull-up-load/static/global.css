@@ -1,0 +1,14 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #404040;
+    box-sizing: border-box;
+}
+.footer{
+    background: #ddd;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}

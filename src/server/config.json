@@ -1,0 +1,26 @@
+{
+	"project": "react-lazyload",
+	"domain": "offer.slq.com",
+	"cdn": "",
+	"vendors": {
+		"simple": [
+			"react",
+			"react-dom",
+			"react-router",
+			"react-router-config",
+			"react-router-dom"
+		],
+		"standard": [
+			"react",
+			"react-dom",
+			"redux",
+			"react-redux",
+			"react-router",
+			"react-router-config",
+			"react-router-dom",
+			"react-router-redux",
+			"redux-logger",
+			"redux-thunk"
+		]
+	}
+}

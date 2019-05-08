@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #404040;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    min-width: 300px;
+    font: 0.13rem/2em sans-serif;
+    padding-top: 1px;
+}
+.head{
+    padding: 20px 0;
+    background: #000;
+}
+.icon{
+    width: 125px;
+    height: 125px;
+    margin: 10px auto;
+    background: url(./images/timg.png) no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+.jumbotron {
+    padding: 0 20px;
+    margin: 30px 0;
+}
+
+.head h1 {
+    color: #fff;
+    font-size: 26px;
+    margin: 15px 0;
+    text-align: center
+}
+
+.jumbotron p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
